@@ -36,6 +36,8 @@ _/ ___\/ __ \\__  \  /  ___// __ \_  __ \ _/ ___\|  \____ \|  |  \_/ __ \_  __ \
   result = input("Type 'yes' if you want to go again. Otherwise type 'no'.\n")
   if result == "no":
     break
-  else:
+  elif rssult == "yes":
     continue
-
+  else:
+    print("Yanlış karakter girdiniz.İşlem sonlanıyor")
+    break
